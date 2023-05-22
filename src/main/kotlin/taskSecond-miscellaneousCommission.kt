@@ -7,6 +7,7 @@ fun main() {
     println(calculatorTransfer(amountPreviousTransfers = 69000, amountTransfer = 10000))
     println(calculatorTransfer(MasterCard, 70000, 6000))
     println(calculatorTransfer(Maestro, 70000, 5000))
+    println(calculatorTransfer(Maestro, amountTransfer = 77500))
 }
 
 fun calculatorTransfer(cardType: String = VKPay, amountPreviousTransfers: Int = 0, amountTransfer: Int): Double {
